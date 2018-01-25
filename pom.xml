@@ -11,6 +11,31 @@
     <name>Telegram bot sdk</name>
     <description>Telegram Bot API Java SDK.</description>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+
+        <javax.json.version>1.1.2</javax.json.version>
+        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/javax.json/javax.json-api -->
+        <dependency>
+            <groupId>javax.json</groupId>
+            <artifactId>javax.json-api</artifactId>
+            <version>${javax.json.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.glassfish/javax.json -->
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.json</artifactId>
+            <version>${javax.json.version}</version>
+        </dependency>
+    </dependencies>
+
     <contributors>
         <contributor>
             <name>Mikita Krivitski</name>
@@ -22,14 +47,6 @@
         <name>Lost Izalith</name>
         <url>https://github.com/LostIzalith</url>
     </organization>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-
-        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
-    </properties>
 
     <build>
         <plugins>

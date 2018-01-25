@@ -1,2 +1,2 @@
 # telegram-bot-sdk
-Telegram Bot API Kotlin SDK. Lets you build Telegram Bots easily!
+Telegram Bot API Java SDK. Lets you build Telegram Bots easily!
